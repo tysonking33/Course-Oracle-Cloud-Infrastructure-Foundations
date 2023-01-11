@@ -1,0 +1,23 @@
+Region: localised geographic area made of one or more Avalibility Domain
+Avalibility Domain: one or more fault tolerant data centres within a region, connected to each other via a low latency high bandwidth network
+	- don't share physical infrasturcture (e.g. power, coooling, internal network), failure of one AD doesn't impact avilibity of others
+fault Domain: grouping of hardware and infrastrucure within AD to provide anti-affinity (aka logical data centres)
+
+How to choose a region:
+	- low latency and highest performance, choose closest region to user
+	- complies to data residency and compliance requirements
+	 - service availbility, based on regional demand, regulatory compliance, resource avalibility etc
+
+regions are made of at least 1 AD
+OCI is hosted in multiple regions
+
+Fault domains protect agains failutes within  OCI AD
+Each fault domain should be made of 1 server and 1 DB node to maintaine high avaliblity of the application
+
+Each AD has 3 fault domains for high availability
+Fault domains act as logical data centres within AD
+OCI regions - Localised geographical areas where data centres are located
+
+AD - at least 1 data centre in a geion
+AD dont share phical infrasture
+OCI region is localise dgeogrphical area

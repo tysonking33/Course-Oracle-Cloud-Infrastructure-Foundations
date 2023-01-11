@@ -1,0 +1,13 @@
+what can be done in OCI:
+	- Core Infrastructure
+	- Database Services
+	- Data and AI
+	- Analytics
+	- Governance and Administration
+	- Developer Services
+	- Application Services
+
+Core primatives:
+	- compute storages - Vm, Bare metal servers, containers, OS and VMware
+	- storage - disks attached to VM, file storea, object storage
+	- Networking`
